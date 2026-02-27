@@ -3,10 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:newskilloapp/pages/splashscreen_page.dart';
 
 void main() async{
-  runApp(const MyApp());
-  await Firebase.initializeApp();
-  WidgetsFlutterBinding.ensureInitialized();
-
+  WidgetsFlutterBinding.ensureInitialized();  
+  await Firebase.initializeApp();              
+  runApp(const MyApp());  
 }
 
 
